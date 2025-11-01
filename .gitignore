@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment folder
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files from VS Code
+.vscode/
+
+# Ignore any large files like models, logs, etc.
+*.log
+*.csv
+*.dll
+*.h5
