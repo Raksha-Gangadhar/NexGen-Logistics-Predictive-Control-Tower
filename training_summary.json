@@ -1,0 +1,45 @@
+{
+  "rows_total": 200,
+  "rows_train": 160,
+  "rows_test": 40,
+  "features_used": [
+    "Priority",
+    "Product_Category",
+    "Origin",
+    "Destination",
+    "Route",
+    "Weather_Impact",
+    "Special_Handling",
+    "Customer_Segment",
+    "Assigned_Vehicle_Type",
+    "Assigned_Vehicle_FuelEff",
+    "Assigned_Vehicle_Age",
+    "Distance_KM",
+    "Traffic_Delay_Minutes",
+    "Toll_Charges_INR",
+    "Order_Value_INR",
+    "Total_Cost_INR",
+    "CO2_Est_kg"
+  ],
+  "num_cols": [
+    "Assigned_Vehicle_FuelEff",
+    "Assigned_Vehicle_Age",
+    "Distance_KM",
+    "Traffic_Delay_Minutes",
+    "Toll_Charges_INR",
+    "Order_Value_INR",
+    "Total_Cost_INR",
+    "CO2_Est_kg"
+  ],
+  "cat_cols": [
+    "Priority",
+    "Product_Category",
+    "Origin",
+    "Destination",
+    "Route",
+    "Weather_Impact",
+    "Special_Handling",
+    "Customer_Segment",
+    "Assigned_Vehicle_Type"
+  ]
+}
